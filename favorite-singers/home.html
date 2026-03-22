@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Favorite Singers</title>
+</head>
+
+<body style="background: linear-gradient(to right, #e3f2fd, #ffffff);">
+
+<div class="container mt-5">
+  <h1 class="text-center mb-4 text-primary fw-bold">My Favorite Singers</h1>
+
+  <div class="row align-items-center">
+
+    <div class="col-sm-4 text-center">
+      <img src="images/singer.png" class="img-fluid rounded shadow">
+    </div>
+
+    <div class="col-sm-8">
+      <div class="card shadow-lg border-0">
+        <div class="card-body">
+
+          <h3 class="text-center mb-3 text-secondary">Top Artists & Songs</h3>
+
+          <table class="table table-hover text-center align-middle">
+            <thead class="table-primary">
+              <tr>
+                <th>Artist</th>
+                <th>Date of Birth</th>
+                <th>Top Songs</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
